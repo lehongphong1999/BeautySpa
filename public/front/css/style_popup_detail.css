@@ -1,0 +1,127 @@
+
+.center_popup_detail .show-btndetail{
+    cursor: pointer;
+  }
+  .center_popup_detail input[type="checkbox"]{
+    display: none;
+  }
+  .container_popup_detail{
+    top: 5%;
+    left: 8%;
+    display: none;
+    background: #fdfdfd;
+    /* background-image: linear-gradient(#FBEEE6 -126%,#FFCAD4 100%); */
+    width: 1100px;
+    padding: 15px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    position: fixed;
+  }
+
+    .center_popup_detail .container_popup_detail .close-btn{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .container_popup_detail .close-btn:hover{
+    color: #3498db;
+    
+  }
+  .container_popup_detail .img{
+      width: 500px;
+      height: 400px;
+  }
+  .container_popup_detail .img:hover{
+    transition: opacity 0.4s, transform 0.35s;
+	transform: scale3d(1.05, 1.05,1);
+  }
+  .container_popup_detail .content{
+      width: 60%;
+      padding-top: 10px;
+  }
+
+  .container_popup_detail .content .title{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
+  }
+  .container_popup_detail .content .price{
+      font-size: 20px;
+      font-weight: 700;
+      color: #dd8f22;
+      margin-top: 10px;
+  }
+  .container_popup_detail .content .origin{
+      font-size: 18px;
+      font-weight: 500;
+  }
+  .container_popup_detail .content .detail_content{
+      font-size: 15px;
+      margin-top: 20px;
+  }
+  .container_popup_detail .option {
+      display: flex;
+      height: 50px;
+      margin-top: 20px;
+  }
+  
+  .container_popup_detail .option .quantity{
+      font-size: 15px;
+      display: flex;
+      line-height: 40px;
+  }
+  .container_popup_detail .option .quantity .value_buy input{
+      margin-left: 5px;
+      width: 210px;
+      height: 40px;
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      border-radius: 20px;
+      border: rgb(197, 196, 196) solid 0.5px;
+  }
+  .container_popup_detail .option .quantity .note input{
+    margin-left: 5px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: rgb(197, 196, 196) solid 0.5px;
+}  
+  .container_popup_detail .option .buy_now {
+      margin-left: 20px;
+      width: 140px;
+      height: 40px;
+      font-weight: 600;
+      font-size: 16px;
+      background: #20a8d8;
+      color: white;
+      border-radius: 10px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      text-align: center;
+      padding-top: 7px;
+  }
+  .container_popup_detail .option .buy_now a{
+      color: white;
+      text-decoration: none;
+      
+  }
+  .container_popup_detail .option .add_cart {
+      margin-left: 20px;
+      width: 140px;
+      height: 40px;
+      font-weight: 600;
+      font-size: 24px;
+      /* color: white !important; */
+      background: #20a8d8;
+      border-radius: 10px;
+      cursor: pointer;
+      text-align: center;
+      padding-top: 2px;
+  }
